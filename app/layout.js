@@ -1,19 +1,17 @@
-import { Poppins, Sen, Jaldi } from 'next/font/google'
+import { Plus_Jakarta_Sans } from 'next/font/google'
 import './globals.css'
 
-const poppins = Poppins({ subsets: ['latin'], weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'], display: 'swap', variable: '--font-poppins' })
-const sen = Sen({ subsets: ['latin'] })
-const jaldi = Jaldi({ subsets: ['latin'], weight: ['400', '700'] })
+const plus_jakarta_sans = Plus_Jakarta_Sans({ subsets: ['latin'], weight: ['400', '500', '600', '700', '800'], display: 'swap'})
 
 export const metadata = {
-  title: 'TableTopping',
-  description: 'Igrejota',
+  title: 'Murango',
+  description: 'Murango',
 }
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="pt" className={`${poppins.variable}`}>
-      <body className={[poppins.className, sen.className, jaldi.className]}>{children}</body>
+    <html lang="pt" className={`${plus_jakarta_sans.variable}`}>
+      <body className={[plus_jakarta_sans.className]}>{children}</body>
     </html>
   )
 }

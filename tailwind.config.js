@@ -11,6 +11,10 @@ module.exports = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+
+      fontFamily: {
+        plus_jakarta_sans: ["Plus Jakarta Sans", "sans-serif"]
+      },
     },
   },
   plugins: [],

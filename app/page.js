@@ -1,7 +1,12 @@
+import Header from "./components/header";
+import Main from "./components/main";
+import Mural from "./components/mural";
 export default function Home() {
   return (
-    <div className="">
-      <h1>Homeeeee</h1>
+    <div className="flex flex-row flex-wrap space-around" id="first">
+      <Header/>
+      <Main/>
+      <Mural/>
     </div>
   );
 }
