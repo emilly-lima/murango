@@ -13,3 +13,11 @@ body {
   background: var(--background);
   font-family: var(--font-plus-jakarta-sans);
 }
+
+#card-receita {
+  display: flex;
+  background-color: #42210B;
+  width: 350px;
+  height: 450px;
+  border-radius: 46px;
+}
