@@ -4,16 +4,16 @@ import Image from "next/image";
 
 export default function Main() {
     return (
-        <main className='flex space-around gap-10'>
+        <main className='flex w-full flex-row space-between gap-20 nowrap justify-center items-center'>
             <Image
                 src="/assets/Ativo-morango.svg" 
                 alt=""
                 width={200}
                 height={250}
-                className='absolute left-28 bottom-5'
+                className=''
                 />  
 
-            <p className='text-justify text-2xl absolute left-1/4 bottom-28'>Olá, eu sou o Murango!<br />
+            <p className='text-justify text-2xl left-1/4 bottom-28'>Olá, eu sou o Murango!<br />
             Nesse site você irá encontrar várias receitas minhas! Ao realizar login você <br />pode avaliar e salvar suas receitas favoritas.</p>
 
         </main>
