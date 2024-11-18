@@ -5,7 +5,7 @@ import Receitas from './receitas';
 
 export default function Mural() {
     return (
-        <div className='flex relative flex-row w-full py-32 justify-center items-center space-between h-full'
+        <div className='flex relative flex-row w-full py-32 justify-center items-center space-around h-full'
         style={{
             backgroundImage: "url('/assets/Ativo 11.svg')",
             width: '100%',

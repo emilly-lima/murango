@@ -20,4 +20,26 @@ body {
   width: 350px;
   height: 450px;
   border-radius: 46px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: start;
+  justify-items: center;
+  padding-left: 0.5rem /* 8px */;
+  padding-right: 0.5rem /* 8px */;
+  padding-top: 0.5rem /* 8px */;
+  padding-bottom: 0.5rem /* 8px */;
+}
+
+#img-receita {
+  border-radius: 40px;
+}
+
+#title-receita {
+  width: 100%;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  padding: 35px;
+  border-radius: 46px;
+  border-top: 2px solid #FEEDC9;
 }
