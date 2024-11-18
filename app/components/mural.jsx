@@ -10,7 +10,8 @@ export default function Mural() {
             backgroundImage: "url('/assets/Ativo 11.svg')",
             width: '100%',
             height: '100%',
-            backgroundRepeat: 'no-repeat'
+            backgroundRepeat: 'no-repeat',
+            backgroundPositionY: 'center',
         }}>
             <Receitas/> 
         </div>
