@@ -11,6 +11,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="pt" className={`${plus_jakarta_sans.variable}`}>
+      <head>
+        <link rel="icon" href="/assets/favicon.ico"></link>
+      </head>
       <body className={[plus_jakarta_sans.className]}>{children}</body>
     </html>
   )
