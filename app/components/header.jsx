@@ -2,14 +2,17 @@
 import * as React from 'react'
 import Image from "next/image";
 
+const windowW = window.innerWidth;
+const windowH = window.innerHeight;
+
 export default function Header() {
     return (
         <header className='flex justify-center'>
             <Image
                 src="/assets/header.svg" 
                 alt=""
-                width={screen.width}
-                height={screen.height}
+                width={windowW}
+                height={windowH}
                 />
 
              <Image
