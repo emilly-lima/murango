@@ -30,6 +30,12 @@ body {
   padding-top: 0.5rem /* 8px */;
   padding-bottom: 0.5rem /* 8px */;
   gap: 10px;
+  cursor: pointer;
+}
+
+#card-receita:hover {
+  background-color: #42210B;
+  opacity: 0.9;
 }
 
 #img-receita {
@@ -69,6 +75,27 @@ body {
 
 #text-footer {
   padding: 2%;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: bold;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track { 
+  box-shadow: inset 0 0 2px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #FF9999; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #b30000; 
 }

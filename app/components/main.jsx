@@ -6,7 +6,7 @@ export default function Main() {
     return (
         <main className='flex w-full flex-row space-between gap-20 nowrap justify-center items-center'>
             <Image
-                src="/assets/Ativo-morango.svg" 
+                src="/assets/morango.svg" 
                 alt=""
                 width={200}
                 height={250}

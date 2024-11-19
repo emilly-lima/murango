@@ -6,14 +6,14 @@ export default function Header() {
     return (
         <header className='flex justify-center'>
             <Image
-                src="/assets/Ativo 3.svg" 
+                src="/assets/header.svg" 
                 alt=""
                 width={screen.width}
                 height={screen.height}
                 />
 
              <Image
-                src="/assets/Ativo 4.svg"
+                src="/assets/murango.svg"
                 alt=''
                 width={400}
                 height={200}

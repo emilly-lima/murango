@@ -3,7 +3,7 @@ export default function Footer() {
     return (
         <div id="footer">
             <img
-                src="/assets/Ativo 12.svg"
+                src="/assets/morangos-footer.svg"
                 alt=""
                 width={200}
                 height={100}
@@ -17,7 +17,7 @@ export default function Footer() {
                     src="/assets/linkedin.png" 
                     alt="linkedin"
                     width={32}
-                    height={30}
+                    height={30} 
                     />
                     <a href="https://www.linkedin.com/in/emilly-lima--/">emilly-lima--</a>
                     
