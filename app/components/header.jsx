@@ -2,18 +2,41 @@
 import * as React from 'react'
 import Image from "next/image";
 
-const windowW = window.innerWidth;
-const windowH = window.innerHeight;
-
 export default function Header() {
+    const [screenSize, setScreenSize] = React.useState({ width: 0, height: 0 });
+
+  React.useEffect(() => {
+    // Atualiza o estado com as dimensões da tela no client-side
+    setScreenSize({
+      width: window.innerWidth,
+      height: window.innerHeight,
+    });
+
+    // Listener para atualizar as dimensões da tela em caso de redimensionamento
+    const handleResize = () => {
+      setScreenSize({
+        width: window.innerWidth,
+        height: window.innerHeight,
+      });
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
     return (
         <header className='flex justify-center'>
-            <Image
-                src="/assets/header.svg" 
-                alt=""
-                width={windowW}
-                height={windowH}
-                />
+           {screenSize.width > 0 && screenSize.height > 0 && (
+        <Image
+          src="/assets/header.svg"
+          alt="Header Image"
+          width={screenSize.width}
+          height={screenSize.height}
+        />
+      )}
 
              <Image
                 src="/assets/murango.svg"
