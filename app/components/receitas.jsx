@@ -12,20 +12,50 @@ export default function Receitas() {
                             id="img-receita"
                             />   
                     <div id="title-receita">
-                    aaaaaaaaaa
+                    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
                     </div>         
                 </div>
 
                 <div id="card-receita">
-
+                <Image
+                            src="/assets/default-image.jpg" 
+                            alt="Ativo 11"
+                            width={350} 
+                            height={100}
+                            className=''
+                            id="img-receita"
+                            />   
+                    <div id="title-receita">
+                    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+                    </div>
                 </div>
 
                 <div id="card-receita">
-
+                <Image
+                            src="/assets/default-image.jpg" 
+                            alt="Ativo 11"
+                            width={350} 
+                            height={100}
+                            className=''
+                            id="img-receita"
+                            />   
+                    <div id="title-receita">
+                    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+                    </div>
                 </div>
                 
                 <div id="card-receita">
-
+                <Image
+                            src="/assets/default-image.jpg" 
+                            alt="Ativo 11"
+                            width={350} 
+                            height={100}
+                            className=''
+                            id="img-receita"
+                            />   
+                    <div id="title-receita">
+                    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+                    </div>
                 </div>
         </div>
     )

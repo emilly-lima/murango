@@ -1,3 +1,4 @@
+import Footer from "./components/footer";
 import Header from "./components/header";
 import Main from "./components/main";
 import Mural from "./components/mural";
@@ -7,6 +8,7 @@ export default function Home() {
       <Header/>
       <Main/>
       <Mural/>
+      <Footer/>
     </div>
   );
 }
