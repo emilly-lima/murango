@@ -5,7 +5,7 @@ export default function Receitas() {
     const router = useRouter()
     return (
         <div className='grid grid-cols-2 gap-x-60 gap-y-80 space-between justify-center'>
-                <button id="card-receita" onClick={() => router.push('/boloMorango')}>
+                <button id="card-receita" onClick={() => router.push('/BoloMorango')}>
                     <Image
                             src="/assets/default-image.jpg" 
                             alt="Ativo 11"
