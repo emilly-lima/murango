@@ -38,13 +38,12 @@ export default function Header() {
         />
       )}
 
-             <Image
+             <img
                 src="/assets/murango.svg"
                 alt=''
                 width={400}
                 height={200}
                 className='absolute top-7'
-                priority
              />   
 
         </header>

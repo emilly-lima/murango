@@ -1,8 +1,11 @@
+"use client";
 import Image from "next/image";
+import { useRouter } from 'next/navigation';
 export default function Receitas() {
+    const router = useRouter()
     return (
         <div className='grid grid-cols-2 gap-x-60 gap-y-80 space-between justify-center'>
-                <div id="card-receita">
+                <button id="card-receita" onClick={() => router.push('/boloMorango')}>
                     <Image
                             src="/assets/default-image.jpg" 
                             alt="Ativo 11"
@@ -12,9 +15,9 @@ export default function Receitas() {
                             id="img-receita"
                             />   
                     <div id="title-receita">
-                    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+                    Bolo de Morango
                     </div>         
-                </div>
+                </button>
 
                 <div id="card-receita">
                 <Image
@@ -26,7 +29,7 @@ export default function Receitas() {
                             id="img-receita"
                             />   
                     <div id="title-receita">
-                    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+                    Sorvete de Morango
                     </div>
                 </div>
 
@@ -40,7 +43,7 @@ export default function Receitas() {
                             id="img-receita"
                             />   
                     <div id="title-receita">
-                    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+                    Torta de Morango
                     </div>
                 </div>
                 
@@ -54,7 +57,7 @@ export default function Receitas() {
                             id="img-receita"
                             />   
                     <div id="title-receita">
-                    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+                    Escondidinho de Morango e Ninho
                     </div>
                 </div>
         </div>
